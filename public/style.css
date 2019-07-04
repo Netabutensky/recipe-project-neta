@@ -1,0 +1,101 @@
+#all-ingredients {
+    font-family: Impact;
+    font-size: 15px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 21px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 60px;
+    text-align: center;
+}
+
+#img {
+    height: 150px;
+    width: 150px;
+}
+
+#all { 
+    border: 6px inset rgb(7, 7, 7);
+    border-radius: 40px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+
+#food-input {
+    width: 272px;
+    height: 71px;
+    position: relative;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-weight: 400;
+    font-size: 32.1px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF
+    
+}
+
+::placeholder{
+    color: #FFF
+}
+
+#food-button {
+    width: 150px;
+    height: 60px;
+    position: relative;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF
+}
+
+#headline {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 150px;
+    letter-spacing: 3.8px;
+    word-spacing: 4.2px;
+    text-align: center;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 11px 2px 2px rgba(206, 89, 55, 0);
+}
+
+body{
+
+    background-image: url("https://media2.giphy.com/media/o9ngTPVYW4qo8/giphy.gif?cid=790b76115d1dd68d48365a70634a45b2&rid=giphy.gif")
+   
+}
+
+#img {
+    border: 5px dotted #FFFFFF;
+border-radius: 40px;
+}
+
+#li{display: grid;
+    
+}
+
+#title {
+    font-size: 20px
+    ;text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 11px 2px 2px rgba(206, 89, 55, 0);
+}
+
+html{
+    cursor: url("http://cur.cursors-4u.net/food/foo-6/foo523.cur"), auto ;
+}
+

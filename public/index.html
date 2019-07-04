@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+</head>
+
+<body>
+<h1 id="headline">WELCOME!</h1>
+    <input id="food-input" type="text" placeholder="write the ingridient">
+    <button id="food-button" onclick=button()>search!!!</button>
+
+
+
+    <div id="all-ingredients"></div>
+
+
+
+    <script id="ingredient-template" type="text/x-handlebars-template">
+
+
+   {{#each ingredi}}
+   <div id="all">
+    <div class="foodie">
+        <br>
+        <div id="title">{{title}} <a href="{{href}}"></a>
+        </div>
+        <br>
+        <div id="pic"></div>
+        <img id="img" onclick=first() src={{thumbnail}} >
+        </div>
+        <div>
+            <ul>Ingredients:
+                {{#each ingredients}}
+                <li id="li">{{this}}</li>
+                {{/each}}
+            </ul>
+        </div> 
+     </div>
+    {{/each}}
+    
+</script>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
