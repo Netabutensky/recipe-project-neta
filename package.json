@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Netabutensky/recipe-project-neta#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.3.0",
     "jquery": "^3.4.1",
     "request": "^2.88.0"
   }
